@@ -1,4 +1,4 @@
-# Solution for Bank Coding Challenge
+# Solution for Bank Coding Challenge From COOEE
 
 ## 📝 Coding Challenge Requirements
 As a Customer I can join the bank by providing a name and an initial deposit.
