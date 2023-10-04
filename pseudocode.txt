@@ -1,0 +1,30 @@
+Bank
+    class customer
+      name: string
+      initial deposit: number
+      actions: functions 
+        deposit
+        withdraw
+        transfer
+        check balance
+
+    
+
+
+Bank {
+  customers []
+  actions: getTotalBalance
+}
+
+
+Customer {
+    name
+    balance
+    actions: {
+      deposit
+      check balance
+      withdraw // only if balance is greater than withdrawal
+      transfer // only if balance is greater than transfer amount
+    }
+  }
+
